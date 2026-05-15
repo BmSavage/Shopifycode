@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "description": "Golden Gardens page library manifest",
+  "pages": [
+    {
+      "id": "safety-page",
+      "title": "Cannabis Safety Information",
+      "slug": "safety",
+      "source_url": "",
+      "source_type": "manual",
+      "created_date": "2026-05-15",
+      "optimized_date": "2026-05-15",
+      "keywords": [
+        "safety",
+        "cannabis",
+        "responsible use",
+        "golden gardens"
+      ],
+      "notes": "First example page demonstrating the full import and export workflow.",
+      "files": {
+        "source": "pages/safety-page/source/raw.html",
+        "normalized": "pages/safety-page/normalized/normalized.html",
+        "output": {
+          "content_only": "pages/safety-page/output/content-only.html",
+          "shopify_page": "pages/safety-page/output/shopify-page.html",
+          "shopify_liquid": "pages/safety-page/output/shopify-liquid.html"
+        }
+      }
+    }
+  ]
+}
